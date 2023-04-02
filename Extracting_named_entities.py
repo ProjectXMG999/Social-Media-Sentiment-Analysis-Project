@@ -16,7 +16,9 @@ def extract_named_entities(tweet_text):
     # Return the list of named entities
     return named_entities
   
-  class TweetListener(tweepy.StreamListener):
+
+class TweetListener(tweepy.StreamListener):
+    
     def on_status(self, status):
         # Ignore retweets
         if 'RT @' in status.text:
