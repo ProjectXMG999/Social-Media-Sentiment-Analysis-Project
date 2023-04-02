@@ -11,7 +11,7 @@ def classify_sentiment(tweet_text):
     # Return the sentiment label (positive, negative, or neutral)
     return result['label']
   
-  class TweetListener(tweepy.StreamListener):
+class TweetListener(tweepy.StreamListener):
     def on_status(self, status):
         # Ignore retweets
         if 'RT @' in status.text:
