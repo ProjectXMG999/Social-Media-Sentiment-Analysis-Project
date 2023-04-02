@@ -23,6 +23,14 @@ class TweetAnalyzer:
 
         # Return the top N named entities
         return sorted_named_entities[:num_entities]
+    
+#     def plot_top_named_entities(self, sentiment='positive', num_entities=10):
+#         # Get the top named entities
+#         top_named_entities = self.get_top_named_entities(sentiment=sentiment, num_entities=num_entities)
+
+#         # Extract the named entities and their frequencies into separate lists
+#         named_entities = [ne[0] for ne in top_named_entities]
+#         frequencies = [ne
 
 analyzer = TweetAnalyzer('tweets.db')
 top_named_entities = analyzer.get_top_named_entities(sentiment='positive', num_entities=10)
