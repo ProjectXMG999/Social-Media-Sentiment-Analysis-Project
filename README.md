@@ -2,7 +2,7 @@
 - The goal of this project is to develop a tool that can analyze sentiment in social media posts in real-time. The tool would be useful for companies and organizations that want to monitor how their brand or products are being perceived on social media platforms like Twitter, Facebook, and Instagram.
 
 ### The tool would have the following features:
-1.Real-time monitoring of social media feeds: The tool would continuously monitor social media feeds for posts related to the company or product being monitored.
+1. Real-time monitoring of social media feeds: The tool would continuously monitor social media feeds for posts related to the company or product being monitored.
 
 2. Sentiment analysis: The tool would analyze the sentiment of each social media post and classify it as positive, negative, or neutral.
 
